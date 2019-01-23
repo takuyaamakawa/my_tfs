@@ -19,7 +19,7 @@ This example launches a Database System into an existing subnet and because it's
 Is used to export the environmental variables used in the configuration. These are usually authentication related, be sure to exclude this file from your version control system. It's typical to keep this file outside of the configuration.
 
 Before you plan, apply, or destroy the configuration source the file -  
-`$ . env-vars`
+`$ . ../../env/env-vars`
 
 #### `DBSystem.tf`
 Defines the Database System
