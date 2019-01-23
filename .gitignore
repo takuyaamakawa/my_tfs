@@ -1,2 +1,4 @@
 .gitconfig
-terraform.ftstate.*
+terraform.tfstate*
+.terraform
+*/plugins/*
