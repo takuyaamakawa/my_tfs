@@ -4,6 +4,7 @@ Before using this terraform configurtion, I need to setup terraform and configur
 
 Below is the tree for this terraform environment.
 
+```
 ├── env
 │   └── env-vars
 └── my_tfs
@@ -29,7 +30,7 @@ Below is the tree for this terraform environment.
         ├── terraform.tfstate.backup
         ├── variables.tf -> ../common/variables.tf
         └── vcn_full.tf
-
+```
 
 ** Basic policy 
 
